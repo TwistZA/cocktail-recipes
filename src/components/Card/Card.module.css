@@ -1,0 +1,62 @@
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: solid black 1px; */
+    height:900px;
+    position: relative;
+    box-shadow:  -5px 5px 10px #0f0f0f,
+    5px -5px 10px #ffffff;
+}
+
+.cardHeader{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    z-index:10;
+    /* background-color:rgba(241, 101, 46, 0.5); */
+
+    background: #6190E8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 15px 15px;
+    font-weight: 700;
+
+}
+  
+.cardPicture{
+  z-index: -100;
+  width: 100%;
+}
+
+.ingredientsContainer{
+    display:flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.ingredient{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.recipe{
+    display:flex;
+    flex-direction: column;
+    width: 90%;
+    overflow:auto;    
+}
+
+
+
