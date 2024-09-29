@@ -35,7 +35,6 @@ function App() {
         <h3>2021 Web Dev Project Concept only, by Avinash Ganga</h3>
         <p>This website is project for demo and self studies only!!!!</p>
         <p>Drink responsibly and do not drink and drive!!!!</p>
-        <p>Dedicated to Meg ☘</p>
       </div>
     </div>
   );
